@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: movies-review-service
+---
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: aman
+
+logging:
+  level:
+    root: debug
